@@ -2,11 +2,11 @@
   "name": "@mindvault/mcp",
   "version": "1.0.0",
   "type": "module",
-  "description": "MCP server for MindVault — AI agent access to the vault",
+  "description": "MCP server for MindVault \u2014 AI agent access to the vault",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/index.ts",
+    "build": "node init && tsc",
+    "dev": "node init && tsx src/index.ts",
     "smoke": "tsx scripts/smoke.ts",
     "test": "vitest run"
   },
